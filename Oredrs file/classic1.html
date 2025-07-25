@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Page - Cake Shop</title>
+    <link rel="stylesheet" href="classic1.css" />
+</head>
+<body>
+    <header>
+        <nav class="nav-menu">
+            <img src="cake-icons.jpg" alt="Cake Icon" />
+            <h1> Maharani Bakery Mudhol </h1>
+            <div class="nav-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="orders.html">Orders</a>
+                <a href="signin.html">Sign-In</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <section class="row-layout">
+        <div class="cake-details">
+            <img src="classic cakes/cake1.jpg" alt="Rich Chocolate Truffle Cake" />
+            <div class="info-block">
+                <h3>Rich Chocolate Truffle Cake</h3><br>
+                <p>Price: ₹100</p><br>
+                <h2>Order Now!</h2>
+                <form action="submit-order.php" method="post" id="cakeOrderForm">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" required />
+
+                    <label for="customer-name">Name:</label>
+                    <input type="text" id="customer-name" name="customer_name" required />
+
+                    <label for="address">Delivery Address:</label>
+                    <textarea id="address" name="address" rows="3" required></textarea>
+
+                    <button type="submit">Place Order</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+        const button = document.querySelector('button') ;
+            console.log(button);
+
+            button.onclick = () => {
+               console.log('i am clicked');
+               
+               alert('Thanku for Order');
+            }
+        
+    </script>
+</body>
+</html>

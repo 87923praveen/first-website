@@ -1,0 +1,141 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+
+}
+
+.nav-menu{
+
+    background-color: rgb(249, 49, 89);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    position: fixed;
+    top: 0;
+
+}
+
+.nav-menu img{
+
+    width: 80px;
+    height: 65px;
+    margin-left: 30px;
+   
+}
+
+.nav-menu h1{
+
+    margin-right: 250px;
+    padding: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+ 
+}
+
+.nav-content{
+
+    display: flex;
+    gap: 10px; 
+    
+}
+
+.nav-content a{
+
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 40px;
+    margin-left: 40px;
+    color: whitesmoke; 
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+.nav-content a:hover {
+
+    color: #264653;
+    text-decoration: underline;
+}
+
+.row-layout {
+    display: flex;
+    justify-content: flex-start;
+    padding: 60px;
+}
+
+.cake-details {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.cake-details img {
+    width: 650px;
+    height: 550px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 40px;
+    margin-right: 250px;
+}
+
+.info-block {
+    max-width: 400px;
+}
+
+.info-block h3{
+
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    right: 200px;
+}
+
+.info-block p{
+   
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    right: 200px;
+
+}
+
+.info-block h2{
+   
+    font-size: 35px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    color: red;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 50px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #21867a;
+}
