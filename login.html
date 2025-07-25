@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+
+<body>
+  <center>
+    <form id="loginForm">
+      <div>
+        <h1 class="h1"> Login Page </h1>
+
+        <div class="j">
+          <input type="text" id="username" placeholder="Enter User Name" class="text" />
+          <i class="fa-solid fa-user" id="demo"></i>
+        </div>
+
+        <div class="h">
+          <input type="password" id="password" placeholder="Enter User Password" class="text" />
+          <i class="fa-solid fa-lock" id="lock"></i>
+        </div>
+      </div>
+
+      <br><br><br><br><br>
+    
+      <a href="index.html">
+      <button type="submit" class="button">Submit</button></a>
+
+      <div class="first-div">
+        <img src="cake images\google.png" alt="" class="icon" />
+        <img src="cake images\facebook.jpg" alt="" class="icon" />
+        <img src="cake images\twit.jpg" alt="" class="icon1" />
+      </div>
+    
+    <div class="content">
+      <div class="second-div">
+        <a href="useraccount.html">
+        <p> I don't have any account </p></a>
+      </div>
+
+      <div class="third-div">
+        <a href="useraccount.html">
+         <p id="new-user"> New User ?</p> </a>
+      </div>
+    </div>
+    
+    </form>
+  </center>
+
+<script>
+
+   // ✅ Handle form submission
+    document.getElementById("loginForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const username = document.getElementById("username").value.trim();
+      const password = document.getElementById("password").value.trim();
+
+      if (username && password) {
+        alert("📦 Data to send:\nUsername: " + username + "\nPassword: " + password);
+
+        db.ref("users/").push({
+          username: username,
+          password: password,
+          timestamp: new Date().toISOString()
+        })
+        .then(() => {
+          alert("✅ Data pushed to Firebase!");
+          document.getElementById("loginForm").reset();
+        })
+        .catch((error) => {
+          alert("❌ Push failed: " + error.message);
+        });
+      } else {
+        alert("⚠️ Please fill in both fields.");
+      }
+    });
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+body{
+
+    background-color: white;
+
+}
+
+form{
+
+    background-color: hsl(209, 94%, 72%);
+    border-radius: 40px;
+    height: 550px;
+    width: 400px;
+    margin-top: 70px;
+
+}
+
+.h1{
+    
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 45px;
+    
+}
+
+.text{
+    
+    position: relative;
+    top: 50px;
+    right: 5px;
+    width: 340px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.button{
+
+    width: 220px;
+    height:40px ;
+    border: 1px solid white;
+    border-radius: 15px;
+
+}
+
+button:hover{
+
+    background-color: aquamarine;
+    
+}
+
+#demo{
+
+    position: relative;
+    top: 1px;
+    right: 130px;
+}
+
+#lock{
+
+    position: relative;
+    top: 1px;
+    right: 130px;
+
+}
+
+.first-div{
+
+    display: flex;
+    gap: 1px;
+    margin: 5px;
+    position: relative;
+    top: 10px;
+    left: 110px;
+  
+}
+
+.icon{
+
+    height: 40px;
+    width: 60px;
+
+}
+
+.icon1{
+
+    position: relative;
+    top: 5px;
+    height: 30px;
+    width: 40px;
+
+}
+
+.content{
+
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+a{
+
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.second-div a  p{
+
+    position: relative;
+    top: 30px;
+    margin-left: 40px;
+    color:rgb(26, 12, 16);
+   
+}
+
+#new-user{
+
+    position: relative;
+    top: 30px;
+    left: 30px;
+    color:rgb(26, 12, 16);
+    
+}
