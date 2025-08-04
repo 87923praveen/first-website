@@ -138,3 +138,14 @@ body{
     
 }
 
+@media (min-width:375px) and (max-width:667px){
+    .main-content h1{
+        margin-left: 50px;
+    }
+
+      .main-footer p{
+        margin-left: 100px;
+        margin-right: 80px;
+     }
+}
+
