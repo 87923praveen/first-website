@@ -17,7 +17,6 @@
     position: fixed;
     top: 0;
 
-    
 }
 
 .nav-menu img{
@@ -75,8 +74,10 @@ body{
 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 40px;
     max-width: 1200px;
+    text-align: center;
 }
 
 .div-content a img{
@@ -142,5 +143,16 @@ body{
     padding: 10px;
     margin-left: 400px;
     
+}
+
+@media (min-width:375px) and (max-width:667px){
+    .main-content h1{
+        margin-left: 50px;
+    }
+
+      .main-footer p{
+        margin-left: 100px;
+        margin-right: 80px;
+     }
 }
 
