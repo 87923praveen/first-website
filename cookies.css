@@ -75,6 +75,7 @@ body{
 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 40px;
     max-width: 1200px;
 }
@@ -157,4 +158,5 @@ body{
         margin-right: 80px;
      }
 }
+
 
