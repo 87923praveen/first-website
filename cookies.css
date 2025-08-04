@@ -101,6 +101,7 @@ body{
     font-size: 20px;
     margin-left: 50px;
     margin-top: 10px;
+    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
@@ -144,5 +145,16 @@ body{
     padding: 10px;
     margin-left: 400px;
     
+}
+
+@media (min-width:375px) and (max-width:667px){
+    .main-content h1{
+        margin-left: 50px;
+    }
+
+      .main-footer p{
+        margin-left: 100px;
+        margin-right: 80px;
+     }
 }
 
