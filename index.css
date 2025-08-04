@@ -187,6 +187,8 @@
     padding: 10px;
     margin-left: 400px;
 }
+
+
 @media (min-width:0px) and (max-width:900px){
 
      .content-1 h4{
@@ -234,13 +236,14 @@
      .nav-content a{
         margin-right: 10px;
      }
+
      .content-1 h4{
          font-size: 20px;
         
      }
 
      .content-1 img{
-         margin-left: 150px;
+         margin-left: 100px;
          width: 40px;
          height: 40px;
         
@@ -252,11 +255,17 @@
         font-size: 20px;
      }
 
+     .nav-menu img{
+        width: 40px;
+        height: 40px;
+        margin-left: 2px;
+     }
+
      .nav-menu h1{
         margin-right: 10px;
         font-size: 20px;
         justify-content: none;
-         margin-right: 250px;
+    
      }
 
      .main-footer p{
