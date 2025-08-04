@@ -234,7 +234,7 @@
 @media (min-width:375px) and (max-width:667px){
 
      .nav-content a{
-        margin-right: 10px;
+        margin-right: 12px;
      }
 
      .content-1 h4{
@@ -262,9 +262,9 @@
      }
 
      .nav-menu h1{
-        margin-right: 10px;
+        margin-right: 20px;
         font-size: 20px;
-        justify-content: none;
+       
     
      }
 
