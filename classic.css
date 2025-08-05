@@ -93,7 +93,7 @@ body{
     z-index: -1;
 }
 
-.div-content a img :hover{
+.div-content a,img :hover{
     padding-left: 10px;
     padding-right: 10px;
     box-shadow: 2px,2px,8px black;
@@ -160,4 +160,5 @@ body{
         margin-right: 80px;
      }
 }
+
 
