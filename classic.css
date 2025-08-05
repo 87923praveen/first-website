@@ -97,7 +97,7 @@ body{
     transform: translateY(-10px);
     padding-lefth:10px;
     padding-right:10px
-    box-shadow:2px 2px 8px red;
+    box-shadow: 5px 5px 10px rgb(239, 198, 177), -5px -5px 10px rgb(239, 198, 177);
 }
 
 .div-content  p{
@@ -161,5 +161,6 @@ body{
         margin-right: 80px;
      }
 }
+
 
 
