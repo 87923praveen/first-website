@@ -96,7 +96,7 @@ body{
 .div-content a img:hover{
     transform: translateY(-10px);
     padding-lefth:10px;
-    padding-right:10px
+    padding-right:10px;
     box-shadow: 5px 5px 10px rgb(239, 198, 177), -5px -5px 10px rgb(239, 198, 177);
 }
 
@@ -161,6 +161,7 @@ body{
         margin-right: 80px;
      }
 }
+
 
 
 
