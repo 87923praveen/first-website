@@ -97,6 +97,7 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     box-shadow: 2px 2px 8px black;
+    transform: translateY(-10px);
    
 }
 
@@ -161,6 +162,7 @@ body{
         margin-right: 80px;
      }
 }
+
 
 
 
