@@ -88,6 +88,7 @@ body{
     margin-right: 20px;
     border: 1px solid white;
     border-radius: 20px;
+    z-index: -1;
 }
 
 .div-content a img:hover{
@@ -155,4 +156,5 @@ body{
         margin-right: 80px;
      }
 }
+
 
