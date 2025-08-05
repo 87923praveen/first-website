@@ -79,6 +79,8 @@ body{
     text-align: center;
 }
 
+
+
 .div-content a img{
 
     width: 300px;
@@ -88,12 +90,13 @@ body{
     margin-right: 20px;
     border: 1px solid white;
     border-radius: 20px;
-  
+    z-index: -1;
 }
 
-.div-content a img:hover{
-    transform: translateY(-10px);
-      z-index: -1;
+.div-content a img :hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px,2px,8px black;
 }
 
 .div-content  p{
@@ -157,6 +160,4 @@ body{
         margin-right: 80px;
      }
 }
-
-
 
