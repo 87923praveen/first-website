@@ -93,12 +93,8 @@ body{
     
 }
 
-.div-content a img :hover{
-    padding-left: 10px;
-    padding-right: 10px;
-    box-shadow: 2px 2px 8px black;
+.div-content a img:hover{
     transform: translateY(-10px);
-   
 }
 
 .div-content  p{
@@ -162,10 +158,4 @@ body{
         margin-right: 80px;
      }
 }
-
-
-
-
-
-
 
