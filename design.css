@@ -83,7 +83,6 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 40px;
-    max-width: 1200px;
 }
 
 .div-content a img{
@@ -149,5 +148,4 @@ body{
         margin-right: 80px;
      }
 }
-
 
